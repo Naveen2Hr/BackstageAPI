@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-demo
+  description: This is a backstage demo proj.
+  tags:
+    - go
+    - website
+  links:
+  
+    - url: http://localhost:9902/swagger-ui.html
+      title: customer
+      icon: dashboard
+      
+spec:
+  type: service
+  lifecycle: production
+  owner: sagar
